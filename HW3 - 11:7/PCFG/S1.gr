@@ -1,0 +1,119 @@
+# The start symbol is START.
+
+# These two rules are required; please do not change these weights!
+99	START	S1
+1	START	S2
+
+# This is a very, very, very simple grammar to get you started.
+
+# Sentences
+1	S1	NP VP .
+
+#  Verb phrases
+1	VP	VerbT NP
+1	VP	VerbTS PP
+1	VP	Mod VP
+1	VP	VerbN VP
+1	VP	VerbPaP
+1	VP	VerbPaP VP
+1	VP	VerbPrP PP NP
+1	VP	VerbP VP
+1	VP	VerbP PP
+1	VP	VerbPrP NP
+1	VP	VerbTS Advp
+1	VP	VerbTS Advp PP
+1	VP	VerbT VP
+1	VP	To VP
+1	VP	VerbN NP PP
+
+
+
+# Noun phrases
+20	NP	Det Nbar
+1	NP	Proper
+15	NP	NP PP
+15	NP	Det Adj Nbar
+1	NP	Det Nbar
+1	NP	Proper PP
+1	NP	Num
+1	NP	Adj Nbar
+1	NP	Num Nbar
+1	NP	Proper Conj Proper
+1	NP	Det ProperOS
+
+
+
+# Noun phrase, inner level
+20	Nbar	Noun
+1	Nbar	Nbar PP
+1	Nbar	ProperO
+1	Nbar	NounS
+
+# Prepositional phrase
+1	PP	Prep NP
+
+3)	Arthur rides the plodding horse near the castle .
+1	Adj	AdjN
+
+# 4)	the Holy Grail is a chalice .
+
+
+
+# 6) every coconut was carried to the hottest mountains .
+
+1	PP	To NP
+1	Adj	AdjS
+
+# Sir Bedevere might have been suggesting this quest .
+
+1	Advp	Adv Adv
+1	Advp	Adv
+
+1	NP	ProP
+
+1	NP	Nbar
+
+
+1	S1	VP VP .
+1	VP	VerbPrP PP
+1	VP	VerbT Not Adj
+
+
+1	S1	SQ
+1	SQ	Do NP VP ?
+1	VP	VerbN
+
+1	S1	DQ
+1	DQ	Whadv SQ
+1	VP	VerbN NP
+
+1	DQ	WhN SQ ?
+1	WhN	WhDt Nbar
+1	SQ	Do NP VP
+
+
+
+1	WhN	WhPro
+1	VP	VerbN NP VP
+
+###part 2
+1	DQ	WhN SQ ?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
