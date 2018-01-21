@@ -11,5 +11,5 @@ My task here is to write regular expressions to match these obfuscated email add
 I matched all of the 119 obfuscated phone numbers with 0 false positives.
 I've also matched 108/119 email addresses, with 2 false positives and 9 false negatives.
 
-[click here for project instruction]()  
-[click here for project report]()  
+[click here for project instruction](https://github.com/cpkoywk/IST664_Natural_Language_Processing/blob/master/HW2%20-%20spamlord/Homework2_Fall_2017(1).pdf)  
+[click here for project report](https://github.com/cpkoywk/IST664_Natural_Language_Processing/blob/master/HW2%20-%20spamlord/HW2%20Report%20Pan%20Chen.pdf)  
