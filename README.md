@@ -1,6 +1,11 @@
 # IST664_Natural_Language_Processing_Fall_2017
 taught by Prof. Nancy McCracken
 
+The topics of the course will cover the techniques of NLP in the levels of linguistic analysis, going through tokenization, word-level semantics, Part-Of-Speech tagging, syntax, semantics and on up to the discourse level. It will also focus on the use of the NLP techniques in applications.
+These will include Information Retrieval, Question Answering, Sentiment Analysis, Summarization and Dialogue Systems.
+
+The main tools used in this course are Python 3 with the NLTK package.
+
 Here are some highlights of the work I've done for the course
 
 ## Homework 2: Spamlord (Regular expressions)
@@ -12,4 +17,5 @@ My task here is to write regular expressions to match these obfuscated email add
 
 ## Lab 11: Bigram and POS tag feature sets and cross-validation in the NLTK
 [click here for lab report](https://github.com/cpkoywk/IST664_Natural_Language_Processing/blob/master/Lab%2011%20-%20Bigrams:POStags:CV/LabWeek11bigrams.ipynb)
+
 In this lab, I learned to use bigram features and POS (Part-of-Speech) tag features for classification. I have also learned to use cross-validation to evaluate the performances of the classification models.
